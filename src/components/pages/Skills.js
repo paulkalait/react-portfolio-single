@@ -12,40 +12,40 @@ const Skills = () => {
         Aos.init({ duration: 2000})
         }, [])
   return (
-    <div className="bg-slate-200 w-full h-screen " name="skills">
+    <div className="bg-[#c7f9cc] w-full h-screen " name="skills">
     {/* Container */}
     <div data-aos="fade-up" className="max-w-[1000px] mx-auto my-auto p-4 flex flex-col justify-center w-full h-full text-black ">
       <div >
         <p className="text-4xl font-bold inline border-b-4 border-[#80ed99]">
           Skills
         </p>
-        <p className="py-8 text-2xl">Technologies I have worked with...</p>
+        <p className="py-8 text-2xl text-black">Technologies I have worked with...</p>
       </div>
 
-      <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
-        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 ">
+      <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8 ">
+        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 bg-slate-100">
           <img className="w-20 mx-auto" src={HTML} alt="html icon" />
-          <p className="my-3">HTML</p>
+          <p className="my-3 text-black">HTML</p>
         </div>
-        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
+        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 bg-slate-100">
           <img className="w-20 mx-auto" src={JS} alt="html icon" />
-          <p className="my-3">JS</p>
+          <p className="my-3 text-black">JS</p>
         </div>
-        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
+        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 bg-slate-100">
           <img className="w-20 mx-auto" src={CSS} alt="html icon" />
-          <p className="my-3">CSS</p>
+          <p className="my-3 text-black">CSS</p>
         </div>
-        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
+        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 bg-slate-100">
           <img className="w-20 mx-auto" src={REACT} alt="html icon" />
-          <p className="my-3">REACT</p>
+          <p className="my-3 text-black">REACT</p>
         </div>
-        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
+        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 bg-slate-100">
           <img className="w-20 mx-auto" src={MONGO} alt="html icon" />
-          <p className="my-3">MongoDB</p>
+          <p className="my-3 text-black">MongoDB</p>
         </div>
-        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6">
+        <div className="shadow-md shadow-gray-500 hover:scale-105 duration-500 pt-6 bg-slate-100">
           <img className="w-20 mx-auto" src={NODE} alt="html icon" />
-          <p className="my-3">Node.JS</p>
+          <p className="my-3 text-black">Node.JS</p>
         </div>
       </div>
     </div>

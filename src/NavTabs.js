@@ -1,8 +1,8 @@
 import React from "react";
 
 const NavTabs = ({ currentPage, handlePageChange }) => {
-  // const [nav, setNav] = useState(false);
-  // const handleClick = () => setNav(!nav);
+//   const [nav, setNav] = useState(false);
+//   const handleClick = () => setNav(!nav);
 
   return (
     <div className=" w-full h-20 flex justify-end  items-center px-4 drop-shadow-md bg-white bg-sh navBar text-lg">
