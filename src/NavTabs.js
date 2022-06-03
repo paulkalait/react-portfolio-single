@@ -1,4 +1,5 @@
 import React, { useState} from "react";
+import LOGO from '../src/assets/logo.png'
 import { FaBars, FaTimes} from "react-icons/fa";
 
 const NavTabs = ({ currentPage, handlePageChange }) => {
@@ -7,10 +8,14 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
 
   return (
     <div className="w-full h-20 flex justify-end  items-center px-4 drop-shadow-md bg-white bg-sh navBar text-lg">
-    <div   className="justify-end items-center hidden md:flex"> 
+    <div className=" absolute left-5 logo">
+<a href="home"  onClick={() => handlePageChange("Home")}>
+<img src={LOGO} style={{width:'50px'}}/></a>
+</div>
+    <div   className="hidden md:flex"> 
 
 
-    
+
 
       <div className="mr-5 ">
         <button

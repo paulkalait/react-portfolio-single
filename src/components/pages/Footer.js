@@ -7,7 +7,7 @@ import CV from "../../assets/Paul's CV 2022.pdf"
 
 const Footer = () => {
   return (
-    <div className='sm:  w-full  justify-center bg-white'>
+    <div className='sm: w-full  justify-center bg-white'>
     <div className='flex justify-center flex-row items-center icons-footer'>
     <div className="my-3 mx-4  mt-5 ">
     <a
