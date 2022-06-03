@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&family=Press+Start+2P&display=swap');
+
+
+@layer base {
+  body { 
+    @apply font-[MuseoModerno]
+  }
+}
+
+
+.content-div{
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.nav-link{
+  font-size: larger;
+  font-family: 'MuseoModerno', cursive;
+  color:black;
+ font-weight: bolder;
+}
+.nav-link:hover{
+  transition: 0.4s;
+  color: #80ed99;
+}
+
+.nav-link:active{
+  color:#80ed99;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.profile{
+  border-radius:50%;
+  border: 4px solid white
+}
+
+.icons-footer{
+  font-size: 35px;
+  color: black;
+  
+}
+
+.linkedin:hover{
+  color:#80ed99;
+  transition: .3s;
+
+}
+
+.github:hover{
+  color:#80ed99;
+  transition: .3s;
+
+}
+.google:hover{
+  color:#80ed99;
+  transition: .3s;
+
+}
+.resume:hover{
+  color:#80ed99;
+  transition: .3s;
+
+}
