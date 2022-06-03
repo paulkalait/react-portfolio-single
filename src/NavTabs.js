@@ -5,52 +5,50 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
   // const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[12%] flex justify-end  items-center px-4 drop-shadow-md bg-white bg-sh navBar text-lg">
+    <div className=" w-full h-20 flex justify-end  items-center px-4 drop-shadow-md bg-white bg-sh navBar text-lg">
       <div className="mr-5 ">
-        <a
-          href="#home"
+        <button
           onClick={() => handlePageChange("Home")}
           className={
             currentPage === 'Home' ? 'nav-link active' : 'nav-link'
           }
-        >Home</a>
+        >Home</button>
         
       </div>
 
       <div className="mr-5">
-        <a href="#about" onClick={() => handlePageChange("About")}
+        <button onClick={() => handlePageChange("About")}
         className={
             currentPage === 'About' ? 'nav-link active' : 'nav-link'
           }
-        
-        >About</a>
+        >About</button>
         
       </div>
 
       <div className="mr-5">
-        <a href="#work" onClick={() => handlePageChange("Work")}
+        <button onClick={() => handlePageChange("Work")}
         className={
             currentPage === 'Work' ? 'nav-link active' : 'nav-link'
           }
-        > Work</a>
+        > Work</button>
        
       </div>
 
       <div className="mr-5">
-        <a href="#skills" onClick={() => handlePageChange("Skills")}
+        <button  onClick={() => handlePageChange("Skills")}
         className={
             currentPage === 'Skills' ? 'nav-link active' : 'nav-link'
           }
-        >Skills</a>
+        >Skills</button>
       
       </div>
 
       <div className="mr-5">
-        <a href="#contact" onClick={() => handlePageChange("Contact")}
+        <button onClick={() => handlePageChange("Contact")}
         className={
             currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
           }
-        >  Contact</a>
+        >  Contact</button>
    
       </div>
     </div>
