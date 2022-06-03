@@ -11,8 +11,8 @@ import finnApp from '../../assets/finn-app.png'
 
 const Work = () => {
   return (
-    <div name="work" className="w-full h-screen bg-[#c7f9cc]  md:text-black">
-    <div  data-aos="fade-up" className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className="w-full bg-[#c7f9cc]  md:text-black">
+    <div  data-aos="fade-up" className=" max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
       <div className='pb-8'>
         <p className="text-4xl font-bold inline border-b-4 text-black border-[#80ed99]">Work</p>
         <p className="py-8">Check out some of my recent projects</p>
@@ -35,7 +35,9 @@ const Work = () => {
               </a>
             </div>
           </div>
-        </div> <div style={{backgroundImage: `url(${wearshare})`}} className=" shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
+        </div> 
+        
+        <div style={{backgroundImage: `url(${wearshare})`}} className=" shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div">
         {/* Hover Effects */}
           <div className="opacity-0 group hover:opacity-100 py-9 px-9">
             <span className='text-2xl font-bold text-white tracking-wider work-title'>

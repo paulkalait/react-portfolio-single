@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useState} from "react";
+import { FaBars, FaTimes} from "react-icons/fa";
 
 const NavTabs = ({ currentPage, handlePageChange }) => {
-//   const [nav, setNav] = useState(false);
-//   const handleClick = () => setNav(!nav);
+  const [mobileNav, setMobileNav] = useState(false);
+  const handleClick = () => setMobileNav(!mobileNav);
 
   return (
-    <div className=" w-full h-20 flex justify-end  items-center px-4 drop-shadow-md bg-white bg-sh navBar text-lg">
+    <div className="w-full h-20 flex justify-end  items-center px-4 drop-shadow-md bg-white bg-sh navBar text-lg">
+    <div   className="justify-end items-center hidden md:flex"> 
+
+
+    
+
       <div className="mr-5 ">
         <button
           onClick={() => handlePageChange("Home")}
@@ -49,8 +55,13 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
             currentPage === 'Contact' ? 'nav-link active' : 'nav-link'
           }
         >  Contact</button>
-   
       </div>
+     
+      </div>
+      <div onClick={handleClick}>
+      {!mobileNav ? <FaBars className="text-black hover:text-2xlg duration-300 md:hidden"/> : <FaTimes />}
+      </div>
+     
     </div>
   );
 };
