@@ -41,3 +41,31 @@ code {
   border-radius:50%;
   border: 4px solid white
 }
+
+.icons-footer{
+  font-size: 40px;
+  color: black;
+  
+}
+
+.linkedin:hover{
+  color:#80ed99;
+  transition: .05s;
+
+}
+
+.github:hover{
+  color:#80ed99;
+  transition: .05s;
+
+}
+.google:hover{
+  color:#80ed99;
+  transition: .05s;
+
+}
+.resume:hover{
+  color:#80ed99;
+  transition: .05s;
+
+}
