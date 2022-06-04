@@ -20,7 +20,7 @@ const Work = () => {
 
 {/* Grid Container right bellow */}
       <div 
-      className="grid sm:grid-cols-2 gap-6">
+      className="grid sm:grid-cols-2 gap-6 mb-10">
         <div style={{backgroundImage: `url(${evalueat})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div ">
         {/* Hover Effects */}
           <div className="opacity-0 group hover:opacity-100 py-9 px-9">

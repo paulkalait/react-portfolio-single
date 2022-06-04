@@ -12,14 +12,14 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
         //allows transition to show after block 
         setTimeout(() => {
             mobileMenuEl[0].style.right = "0"
-        }, 100)
+        }, 1)
       }else{
           //makes it close
         mobileMenuEl[0].style.right = "-600px"
         
           setTimeout(() => {
             mobileMenuEl[0].style.display = "none"
-        }, 200)
+        }, 2)
       }
     
     setMobileNav(!mobileNav)
@@ -87,7 +87,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
 
       <div className="mobileNavMenu shadow-xlg ">
       <ul className="flex flex-col justify-center items-center  text-center">
-      <li className="py-6 text-4xl">
+      <li className="py-6 text-3xl">
         <a onClick={() => handlePageChange("Home")} to="home"
         className={
             currentPage === 'Home' ? 'nav-link active' : 'nav-link'
@@ -95,25 +95,25 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
           Home
         </a>
       </li>
-      <li className="py-6 text-4xl">
+      <li className="py-6 text-3xl">
         
-        <a onClick={() => handlePageChange("About")} to="home"
+        <a onClick={() => handlePageChange("About")} to="about"
         className={
             currentPage === 'About' ? 'nav-link active' : 'nav-link'
           } >
           About
         </a>
       </li>
-      <li className="py-6 text-4xl">
+      <li className="py-6 text-3xl">
       
-        <a onClick={() => handlePageChange("About")} to="home"
+        <a onClick={() => handlePageChange("Work")} to="home"
         className={
-            currentPage === 'About' ? 'nav-link active' : 'nav-link'
+            currentPage === 'Work' ? 'nav-link active' : 'nav-link'
           } >
           Work
         </a>
       </li>
-      <li className="py-6 text-4xl">
+      <li className="py-6 text-3xl">
         
         <a onClick={() => handlePageChange("Skills")} to="home"
         className={
@@ -122,7 +122,7 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
           Skills
         </a>
       </li>
-      <li className="py-6 text-4xl">
+      <li className="py-6 text-3xl">
         
         <a onClick={() => handlePageChange("Contact")} to="home"
         className={
