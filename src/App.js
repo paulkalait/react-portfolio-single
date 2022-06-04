@@ -6,6 +6,7 @@ import Footer from './components/pages/Footer';
 function App() {
   return (
     <div className="App">
+    
 <PortfolioContainer />
 <Footer />
     </div>

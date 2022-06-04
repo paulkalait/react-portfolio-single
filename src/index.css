@@ -20,11 +20,16 @@
   height: 300px;
 }
 
+.nav{
+  position: sticky;
+  top: 0;
+}
 .nav-link{
   font-size: larger;
   font-family: 'MuseoModerno', cursive;
   color:black;
  font-weight: bolder;
+ cursor: pointer;
 }
 .nav-link:hover{
   transition: 0.4s;
@@ -70,3 +75,16 @@ code {
   transition: .3s;
 
 }
+
+.mobileNavMenu{
+  position: absolute;
+  right: -600px;
+  top: 80px;
+  background-color: white;
+  width: 600px;
+  height:95vh;
+  display: none;
+  transition: all 0.4s ease-out;
+
+}
+

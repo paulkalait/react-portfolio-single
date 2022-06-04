@@ -1,5 +1,5 @@
 import React from "react";
-import PHOTO from "../../assets/profile.jpeg";
+import PHOTO from "../../assets/profile.jpg";
 import TypeWriterEffect from 'react-typewriter-effect';
 
 const Home = () => {
@@ -9,14 +9,14 @@ const Home = () => {
       bg-[#c7f9cc] "
     >
       <div className="max-w-[2000px] mx-auto flex flex-row justify-center h-full">
-        <div className="mt-52">
-          <img src={PHOTO} alt="profile-photo" className="ml-3 sm: w-56 w-56 md:w-48 h-48 profile drop-shadow" />
+        <div className="my-auto">
+          <img src={PHOTO} alt="profile-photo" className="ml-3 sm: w-56 w-56 md:w-56 h-56 profile drop-shadow" />
           <div className="mt-5">
-            <h1 className="font-extrabold text-3xl">Hi Im Paul</h1>
+            <h1 className="font-extrabold text-4xl">Hi Im Paul</h1>
             <div className="font-bold text-xl">
             </div>
           </div>
-          <div className="ml-6">
+          <div className="ml-7">
           <TypeWriterEffect
           textStyle={{
             fontFamily: 'MuseoModerno',
