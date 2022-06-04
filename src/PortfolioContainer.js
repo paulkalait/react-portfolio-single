@@ -12,7 +12,6 @@ const [currentPage, setCurrentPage] = useState('Home')
 
     const renderPage = () => {
         if(currentPage === 'Home'){
-            console.log(currentPage)
             return <Home />
         }
         if(currentPage === 'About'){

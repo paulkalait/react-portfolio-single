@@ -1,7 +1,41 @@
-import React from 'react'
+import React, { useState} from 'react'
 import { FaPaperPlane } from "react-icons/fa";
+import { validateEmail } from '../../utils/helpers'
 
 const Contact = () => {
+    const [errorMessage, setErrorMessage] =useState('')
+    // hook that will manage the form data initially the input fields will be cleared when loading. form state variable has three key value pairs bellow
+    const [formState, setFormState] = useState({ name: '', email: '', message: ''})
+    const { name, email, message } = formState
+
+    const  handleChange = (e) => {
+        if(e.target.name === "email"){
+            const isValid = validateEmail(e.target.value);
+            console.log(isValid)
+            // isValid conditional statement
+            if(!isValid){
+                setErrorMessage('Your email is invalid')
+            }else{
+                setErrorMessage('')
+            }
+        }
+            else {
+                if(!e.target.value.length){
+                    setErrorMessage(`${e.target.name} is required!`)
+                }else{
+                    setErrorMessage('')
+                }
+            }
+            console.log('errorMessage', errorMessage)
+        
+    
+        //    using the setformstate function to update the formstate value for the *name property
+         // The preceding conditional statement only allows the state to update with the user input if there is no error message, which is the correct logic
+        if(!errorMessage){
+            setFormState({...formState, [e.target.name]: e.target.value})
+        }
+       }
+
   return (
     <div  data-aos="fade-up" 
     name="contact"
@@ -21,19 +55,26 @@ const Contact = () => {
           Submit the form below or send an email: kalaitzidispaul@gmail.com
         </p>
       </div>
-      <input className="p-2 border-b-2 outline-none focus:border-[#80ed99]" type="text" placeholder="Name" name="name" />
+      <input className="p-2 border-b-2 outline-none focus:border-[#80ed99]" type="text" placeholder="Name" name="name"  onBlur={handleChange} defaultValue={name} />
       <input
         className="my-4 p-2 border-b-2 outline-none focus:border-[#80ed99]"
         type="text"
         placeholder="Email"
         name="email"
+        onBlur={handleChange} defaultValue={email}
       />
       <textarea
         className="bg-white p-2 border-2  outline-none focus:border-[#80ed99]"
         name="message"
         rows="10"
         placeholder="Message"
+        defaultValue={message}  onBlur={handleChange}
       ></textarea>
+      {
+        <div className='p-2  m-2 text-red-500 '>
+        <p className='font-bold'> {errorMessage} </p>
+        </div>
+    }
       <button className="text-white bg-black px-5 py-3 mx-auto mt-4 flex items-center hover:bg-[#80ed99] hover:text-black hover:duration-300">
         Reach Out <FaPaperPlane className="inline ml-2" />
       </button>
