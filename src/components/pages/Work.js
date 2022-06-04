@@ -28,10 +28,10 @@ const Work = () => {
             </span>
             <div className="pt-8 text-center">
               <a href="https://rocky-escarpment-91263.herokuapp.com/">
-                <button className="text-center rounded-lg px-4 py-3 bg-white text-black font-bold text-lg work-buttons"><FaLink/></button>
+                <button className="text-center rounded-lg px-4 py-3 bg-white text-black font-bold text-lg work-buttons"><FaLink className='hover:text-[#80ed99]'/></button>
               </a>
               <a href="https://github.com/paulkalait/evalueat-seperate">
-                <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-black font-bold text-lg"><FaGithub/></button>
+                <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-black font-bold text-lg"><FaGithub className='hover:text-[#80ed99]' /></button>
               </a>
             </div>
           </div>
@@ -44,10 +44,10 @@ const Work = () => {
             </span>
             <div className="pt-8 text-center">
               <a href="https://wear-share.herokuapp.com/">
-                <button className="text-center rounded-lg px-4 py-3 border-2 bg-white text-black font-bold text-lg"><FaLink/></button>
+                <button className="text-center rounded-lg px-4 py-3 border-2 bg-white text-black font-bold text-lg"><FaLink className='hover:text-[#80ed99]'/></button>
               </a>
               <a href=" https://github.com/barkleylikecharles/evalueat">
-                <button className="text-center rounded-lg px-4 py-3 mx-5 border-2 bg-white text-black font-bold text-lg"><FaGithub/></button>
+                <button className="text-center rounded-lg px-4 py-3 mx-5 border-2 bg-white text-black font-bold text-lg"><FaGithub className='hover:text-[#80ed99]'/></button>
               </a>
             </div>
           </div>
@@ -60,10 +60,10 @@ const Work = () => {
             </span>
             <div className="pt-8 text-center">
               <a href="https://paulkalait.github.io/weather-dashboard/   ">
-                <button className="text-center rounded-lg px-4 py-3 border-2 bg-white text-black font-bold text-lg"><FaLink /></button>
+                <button className="text-center rounded-lg px-4 py-3 border-2 bg-white text-black font-bold text-lg"><FaLink className='hover:text-[#80ed99]' /></button>
               </a>
               <a href=" https://github.com/paulkalait/weather-dashboard  ">
-                <button className="text-center rounded-lg px-4 py-3 mx-5 border-2 bg-white text-black font-bold text-lg"><FaGithub/></button>
+                <button className="text-center rounded-lg px-4 py-3 mx-5 border-2 bg-white text-black font-bold text-lg"><FaGithub  className='hover:text-[#80ed99]'/></button>
               </a>
             </div>
           </div>
@@ -76,10 +76,10 @@ const Work = () => {
             </span>
             <div className="pt-8 text-center">
               <a href=" https://paulkalait.github.io/finn-app/">
-                <button className="text-center rounded-lg px-4 py-3 border-2 bg-white text-black font-bold text-lg"><FaLink/></button>
+                <button className="text-center rounded-lg px-4 py-3 border-2 bg-white text-black font-bold text-lg"><FaLink className='hover:text-[#80ed99]'/></button>
               </a>
               <a href="https://github.com/paulkalait/finn-app">
-                <button className="text-center rounded-lg px-4 py-3 mx-5 border-2 bg-white text-black font-bold text-lg"><FaGithub/></button>
+                <button className="text-center rounded-lg px-4 py-3 mx-5 border-2 bg-white text-black font-bold text-lg"><FaGithub className='hover:text-[#80ed99]'/></button>
               </a>
             </div>
           </div>
