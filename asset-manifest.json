@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-single/static/css/main.17f8eb96.css",
-    "main.js": "/react-portfolio-single/static/js/main.4f29f6ca.js",
+    "main.css": "/react-portfolio-single/static/css/main.279d03c5.css",
+    "main.js": "/react-portfolio-single/static/js/main.282a5463.js",
     "static/js/787.dd8c4f6c.chunk.js": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js",
     "static/media/evalueatsc.png": "/react-portfolio-single/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
     "static/media/Paul's CV 2022.pdf": "/react-portfolio-single/static/media/Paul's CV 2022.534a050f09794e02da25.pdf",
@@ -13,12 +13,12 @@
     "static/media/node.js.png": "/react-portfolio-single/static/media/node.js.8e341cc00e4ec40c6a27.png",
     "index.html": "/react-portfolio-single/index.html",
     "static/media/jslogo2.svg": "/react-portfolio-single/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.17f8eb96.css.map": "/react-portfolio-single/static/css/main.17f8eb96.css.map",
-    "main.4f29f6ca.js.map": "/react-portfolio-single/static/js/main.4f29f6ca.js.map",
+    "main.279d03c5.css.map": "/react-portfolio-single/static/css/main.279d03c5.css.map",
+    "main.282a5463.js.map": "/react-portfolio-single/static/js/main.282a5463.js.map",
     "787.dd8c4f6c.chunk.js.map": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17f8eb96.css",
-    "static/js/main.4f29f6ca.js"
+    "static/css/main.279d03c5.css",
+    "static/js/main.282a5463.js"
   ]
 }
