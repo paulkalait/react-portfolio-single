@@ -1,5 +1,5 @@
 import React from "react";
-import PHOTO from "../../assets/profile.jpg";
+import PHOTO from "../../assets/headshot.JPG";
 import TypeWriterEffect from 'react-typewriter-effect';
 
 const Home = () => {
