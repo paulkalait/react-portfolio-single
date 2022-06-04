@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-single/static/css/main.6b0f650e.css",
+    "main.js": "/react-portfolio-single/static/js/main.900926d4.js",
+    "static/js/787.dd8c4f6c.chunk.js": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js",
+    "static/media/evalueatsc.png": "/react-portfolio-single/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
+    "static/media/Paul's CV 2022.pdf": "/react-portfolio-single/static/media/Paul's CV 2022.534a050f09794e02da25.pdf",
+    "static/media/profile.jpg": "/react-portfolio-single/static/media/profile.8c50b13699cd0b4b0010.jpg",
+    "static/media/weatherdash.png": "/react-portfolio-single/static/media/weatherdash.24d33b45f7e13241c072.png",
+    "static/media/react.png": "/react-portfolio-single/static/media/react.f6b89d232c9bc9f828e5.png",
+    "static/media/finn-app.png": "/react-portfolio-single/static/media/finn-app.57196f7bc4fe45fc5b99.png",
+    "static/media/csslogo.png": "/react-portfolio-single/static/media/csslogo.84de5dab5fab27f4161c.png",
+    "static/media/node.js.png": "/react-portfolio-single/static/media/node.js.8e341cc00e4ec40c6a27.png",
+    "index.html": "/react-portfolio-single/index.html",
+    "static/media/jslogo2.svg": "/react-portfolio-single/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
+    "main.6b0f650e.css.map": "/react-portfolio-single/static/css/main.6b0f650e.css.map",
+    "main.900926d4.js.map": "/react-portfolio-single/static/js/main.900926d4.js.map",
+    "787.dd8c4f6c.chunk.js.map": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b0f650e.css",
+    "static/js/main.900926d4.js"
+  ]
+}
