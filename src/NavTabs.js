@@ -1,8 +1,11 @@
 import React, { useState} from "react";
 import LOGO from '../src/assets/logo.png'
 import { FaBars, FaTimes} from "react-icons/fa";
+import { motion } from 'framer-motion'
+
 
 const NavTabs = ({ currentPage, handlePageChange }) => {
+  
   const [mobileNav, setMobileNav] = useState(false);
   const handleClick = () => {
       let mobileMenuEl = document.getElementsByClassName('mobileNavMenu')
@@ -79,10 +82,16 @@ const NavTabs = ({ currentPage, handlePageChange }) => {
           }
         >  Contact</button>
       </div>
+
+        {/* put swithc component here  */}
+       
      
       </div>
+
+
+
       <div onClick={handleClick}>
-      {!mobileNav ? <FaBars className="text-black hover:text-2xlg duration-300 md:hidden"/> : <FaTimes  className="md:hidden"/>}
+      {!mobileNav ? <motion.button whileHover={{ scale: 1.3}}> <FaBars className="text-black hover:text-2xlg duration-300 md:hidden"/> </motion.button> : <motion.button whileHover={{ scale: 1.3}}> <FaTimes className="text-black hover:text-2xlg duration-300 md:hidden"/> </motion.button>}
       </div>
 
       <div className="mobileNavMenu shadow-xlg ">
