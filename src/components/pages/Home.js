@@ -2,17 +2,18 @@ import React from "react";
 import PHOTO from "../../assets/headshot.JPG";
 import TypeWriterEffect from 'react-typewriter-effect';
 
+
 const Home = () => {
   return (
     <div
       className="sm: w-full h-screen
-      bg-[#c7f9cc] "
+      bg-[#c7f9cc] home"
     >
       <div className="max-w-[2000px] mx-auto flex flex-row justify-center h-full">
         <div className="my-auto">
-          <img src={PHOTO} alt="profile-photo" className="ml-3 sm: w-56 w-56 md:w-56 h-56 profile drop-shadow" />
+          <img src={PHOTO} alt="profile-photo" className="ml-3 sm: w-60 h-56 md:w-64 h-64 profile drop-shadow-md" />
           <div className="mt-5">
-            <h1 className="font-extrabold text-4xl">Hi Im Paul</h1>
+            <h1 className="font-extrabold text-5xl">Hi Im Paul</h1>
             <div className="font-bold text-xl">
             </div>
           </div>
@@ -22,7 +23,7 @@ const Home = () => {
             fontFamily: 'MuseoModerno',
             color: '#3F3D56',
             fontWeight: 500,
-            fontSize: '1.1em',
+            fontSize: '1.3em',
           }}
           startDelay={2000}
           cursorColor="#3F3D56"

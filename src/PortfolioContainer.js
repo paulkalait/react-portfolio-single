@@ -6,6 +6,9 @@ import Skills from './components/pages/Skills'
 import Work from './components/pages/Work'
 import Contact from './components/pages/Contact'
 
+
+
+
 const PortfolioContainer = () => {
 const [currentPage, setCurrentPage] = useState('Home')
     //use state set to Home
