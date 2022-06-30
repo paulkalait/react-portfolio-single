@@ -13,7 +13,7 @@ const Home = () => {
         <div className="my-auto">
           <img src={PHOTO} alt="profile-photo" className="ml-3 sm: w-60 h-56 md:w-64 h-64 profile drop-shadow-md" />
           <div className="mt-5">
-            <h1 className="font-extrabold text-5xl">Hi Im Paul</h1>
+            <h1 className="font-extrabold text-5xl">Hi I'wm Paul</h1>
             <div className="font-bold text-xl">
             </div>
           </div>
