@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio-single/static/css/main.e5aa8eab.css",
-    "main.js": "/react-portfolio-single/static/js/main.974ebec0.js",
+    "main.js": "/react-portfolio-single/static/js/main.d2ae76ac.js",
     "static/js/787.dd8c4f6c.chunk.js": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js",
     "static/media/evalueatsc.png": "/react-portfolio-single/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
     "static/media/Paul's CV 2022.pdf": "/react-portfolio-single/static/media/Paul's CV 2022.534a050f09794e02da25.pdf",
@@ -14,11 +14,11 @@
     "index.html": "/react-portfolio-single/index.html",
     "static/media/jslogo2.svg": "/react-portfolio-single/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.e5aa8eab.css.map": "/react-portfolio-single/static/css/main.e5aa8eab.css.map",
-    "main.974ebec0.js.map": "/react-portfolio-single/static/js/main.974ebec0.js.map",
+    "main.d2ae76ac.js.map": "/react-portfolio-single/static/js/main.d2ae76ac.js.map",
     "787.dd8c4f6c.chunk.js.map": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5aa8eab.css",
-    "static/js/main.974ebec0.js"
+    "static/js/main.d2ae76ac.js"
   ]
 }
