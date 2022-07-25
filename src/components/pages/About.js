@@ -20,7 +20,7 @@ const About = () => {
         </div>
         <div className='sm:text-left text-slate-800 pl-4'>
           <p>
-            I am currently attending UCONN coding bootcamp to become a full
+            I recently finished a coding bootcamp at UCONN to become a full
             stack developer. Prior I graduated from Central Connecticut state
             university in a degree in finance and worked in tax; however,
             coding is where I believe I found my passion. It requires an
