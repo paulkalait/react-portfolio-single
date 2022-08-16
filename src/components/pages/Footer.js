@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin, FaGoogle } from "react-icons/fa";
-import CV from "../../assets/Paul's CV 2022.pdf"
+import CV from "../../assets/Paul's CV 2022 .pdf"
 import { motion } from 'framer-motion'
 
 

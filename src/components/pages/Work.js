@@ -4,7 +4,7 @@ import {
     FaLink,
    
   } from "react-icons/fa";
-  import playDate from '../../assets/playDate.png'
+  import playDate from '../../assets/playdate.png'
   import wearshare from "../../assets/wearshare.png"
 import rentafit from "../../assets/rentafit.jpg"
 import finnApp from '../../assets/finn-app.png'
