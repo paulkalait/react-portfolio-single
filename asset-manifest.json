@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/react-portfolio-single/static/css/main.e5aa8eab.css",
-    "main.js": "/react-portfolio-single/static/js/main.fcc5c9e1.js",
+    "main.js": "/react-portfolio-single/static/js/main.5a134ab4.js",
     "static/js/787.dd8c4f6c.chunk.js": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js",
-    "static/media/evalueatsc.png": "/react-portfolio-single/static/media/evalueatsc.c5aff30b2b658f07a6c5.png",
     "static/media/Paul's CV 2022.pdf": "/react-portfolio-single/static/media/Paul's CV 2022.534a050f09794e02da25.pdf",
     "static/media/headshot.JPG": "/react-portfolio-single/static/media/headshot.a483a00a3a24252cbe7a.JPG",
+    "static/media/playDate.png": "/react-portfolio-single/static/media/playDate.9ba0d2b19429131fa280.png",
     "static/media/react.png": "/react-portfolio-single/static/media/react.f6b89d232c9bc9f828e5.png",
     "static/media/finn-app.png": "/react-portfolio-single/static/media/finn-app.57196f7bc4fe45fc5b99.png",
     "static/media/rentafit.jpg": "/react-portfolio-single/static/media/rentafit.6ad3d0ae4ea4c25052a9.jpg",
@@ -14,11 +14,11 @@
     "index.html": "/react-portfolio-single/index.html",
     "static/media/jslogo2.svg": "/react-portfolio-single/static/media/jslogo2.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.e5aa8eab.css.map": "/react-portfolio-single/static/css/main.e5aa8eab.css.map",
-    "main.fcc5c9e1.js.map": "/react-portfolio-single/static/js/main.fcc5c9e1.js.map",
+    "main.5a134ab4.js.map": "/react-portfolio-single/static/js/main.5a134ab4.js.map",
     "787.dd8c4f6c.chunk.js.map": "/react-portfolio-single/static/js/787.dd8c4f6c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5aa8eab.css",
-    "static/js/main.fcc5c9e1.js"
+    "static/js/main.5a134ab4.js"
   ]
 }
