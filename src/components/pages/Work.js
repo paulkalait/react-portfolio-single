@@ -4,7 +4,7 @@ import {
     FaLink,
    
   } from "react-icons/fa";
-  import evalueat from '../../assets/evalueatsc.png'
+  import playDate from '../../assets/playDate.png'
   import wearshare from "../../assets/wearshare.png"
 import rentafit from "../../assets/rentafit.jpg"
 import finnApp from '../../assets/finn-app.png'
@@ -21,16 +21,16 @@ const Work = () => {
 {/* Grid Container right bellow */}
       <div 
       className="grid sm:grid-cols-2 gap-6 mb-10">
-        <div style={{backgroundImage: `url(${evalueat})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div ">
+        <div style={{backgroundImage: `url(${playDate})`}} className="shadow-lg shadow-gray-500 group container rounded-md flex justify-center items-center mx-auto content-div ">
         {/* Hover Effects */}
           <div className="opacity-0 group hover:opacity-100 py-9 px-9">
             <span className='text-2xl font-bold text-white tracking-wider work-title'>
             </span>
             <div className="pt-8 text-center">
-              <a href="https://rocky-escarpment-91263.herokuapp.com/">
+              <a href="https://playdate-mern-app.herokuapp.com/start">
                 <button className="text-center rounded-lg px-4 py-3 bg-white text-black font-bold text-lg work-buttons"><FaLink className='hover:text-[#80ed99]'/></button>
               </a>
-              <a href="https://github.com/paulkalait/evalueat-seperate">
+              <a href="https://github.com/paulkalait/playDate">
                 <button className="text-center rounded-lg px-4 py-3 mx-5 bg-white text-black font-bold text-lg"><FaGithub className='hover:text-[#80ed99]' /></button>
               </a>
             </div>
